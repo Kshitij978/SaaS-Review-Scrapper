@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/

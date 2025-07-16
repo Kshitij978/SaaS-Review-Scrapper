@@ -11,24 +11,34 @@
     "url": "git+https://github.com/Kshitij978/SaaS-Review-Scrapper.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Kshitij Srivastava",
   "type": "commonjs",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "axios": "^1.10.0",
     "cheerio": "^1.1.0",
+    "crawlbase": "^1.0.2",
     "dayjs": "^1.11.13",
+    "dotenv": "^17.2.0",
     "fs-extra": "^11.3.0",
     "puppeteer": "^24.12.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.1.601",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^24.0.13",
+    "@types/user-agents": "^1.0.4",
     "@types/yargs": "^17.0.33",
     "typescript": "^5.8.3"
   }
 }
+

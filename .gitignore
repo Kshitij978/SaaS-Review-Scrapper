@@ -11,3 +11,5 @@ Thumbs.db
 
 # VSCode settings
 .vscode/
+
+.tmp-user-data/
